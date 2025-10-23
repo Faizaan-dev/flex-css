@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script>
+    console.log("faizaan.html loaded");
+  </script>
+</head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       *{
+        font-family: Arial, Helvetica, sans-seri;
+       }
+
+       .parent-div{
+         border: 10px solid rgb(21, 208, 177);
+         height: 800px;
+         background-color: rgb(110, 117, 123);
+       }
+
+
+       .parent-div div{
+        border-color: black;
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+       }
+
+
+       .parent-div div h1{
+        padding: 0px 10px 0px 10px;
+        border: 10px solid rgb(0, 0, 0);
+        background-color: aquamarine;
+       }
+
+
+       .parent-div div:nth-child(2){
+        margin: 100px 0px 100px 0px;
+       }
+
+       .child-div p{
+        border: 3px solid rgb(248, 0, 0)  ;
+        padding: 20px;
+        background-color: rgb(247, 247, 247);
+       }
+</style>
+   
+</head>
+<body> 
+    <div class="parent-div">
+    <div class ="child-div">
+    <p>1</p>
+    <p>2</p>
+    <p>3</p>
+    <p>4</p>
+    <p>5</p></div>
+   <div class="child-div"> <p>6</p>
+    <p>7</p>
+    <p>8</p>
+    <p>9</p>
+    <p>10</p></div>
+    <div class="child-div"><p>11</p>
+    <p>12</p>
+    <p>13</p>
+    <p>14</p>
+    <p>15</p></div>
+    </div>        
+</body>
+</html>
